@@ -1,0 +1,302 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.header-continer{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    padding: 20px;
+    padding-right: 50px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+p{
+    line-height: 25px;
+}
+a:link{
+    text-decoration: none;
+}
+.main-continer{
+    width: 500px;
+    height: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+     font-size: 30px;
+     padding:50px;
+     font-weight: 400;
+     text-indent: 10px;
+     display: flex;
+    justify-content: space-between;
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+.main-continer p{
+width: 650px;
+padding-top: 20px;
+padding-bottom: 20px;
+line-height:40px;
+font-size:20px;
+}
+.main-continer h1{
+    width: 680px;
+}
+input{
+    padding: 10px;
+    width: 390px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: gray;
+    box-shadow: 1px 1px 1px gray;
+}
+button{
+    padding: 10px;
+    width: 195px;
+    background-color:hsl(224, 93%, 58%);
+    border: 0px;
+    height: 50px;
+    border-radius: 3px;
+    color: white;
+    text-align: center  ;
+    font-size: 16px;
+}
+.fisrt-pic{
+    padding-left: 200px;
+}
+
+.sec-container{
+    background-image: url(images/bg-curve-desktop.svg) ;
+    background-size: cover  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+  margin-top: 80px;
+  padding: 70px;
+    padding-top: 80px;
+    font-weight: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.sec-container p{
+    width: 550px;
+    padding-top: 20px;
+    
+}
+.green-link{
+    color:hsl(170, 45%, 43%);
+    
+
+}
+
+.header-card p{
+    width: 300px;
+   
+
+}
+
+.avatar{
+    padding-top: 20px;
+    border-radius: 50px;
+    
+    
+    
+}
+.card{
+    background-color: white;
+    width: 330px;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 2px 0px 5px hsl(0, 0%, 75%);
+    
+    
+}
+.avater-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 11px;
+    
+    
+}
+.arrow-link{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-decoration: underline hsl(170, 45%, 43%) ;
+}
+.avater-section p{
+    font-weight: bold;
+}
+
+.left-section p{
+    width: 480px;
+    padding-top: 20px;
+    
+}
+.free-section{
+    padding :70px;
+    padding-top: 70px;
+display: flex;
+justify-content: space-between;
+background-color:  hsl(238, 22%, 44%);
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+}
+.right-section{
+flex-direction: column;
+}
+
+.right-section input{
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 2px 0px 1px hsl(0, 0%, 75%); 
+    width: 390px;
+    height: 25px;
+    padding:9px
+
+}
+.right-section button{
+
+    border-style: none;
+    border-radius: 3px;
+    box-shadow: 2px 0px 1px hsl(224, 93%, 58%);  
+    width: 180px;
+    height:40px;
+    padding:9px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+.mybtn{
+    padding-top: 10px;
+}
+
+.footer-continer{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /*align-items: center;*/
+    /*padding-top: 70px;*/
+}
+.left{
+    /*padding: 70px;*/
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+}
+.left p{
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 120px;
+}
+ .ph , .email p{
+   display: flex
+ 
+ }
+.middle{
+   
+    /*padding-left: 200px;*/
+    display: flex;
+    gap: 200px;
+    line-height: 40px;
+}
+ .middle ul li{
+    list-style: none;
+
+ }
+
+ .right{
+   /*padding-top: 50px;*/
+   padding-right: 200px;
+   
+ }
+
+ p#p1::before{
+content: "";
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url("images/icon-phone.svg");
+background-size: contain;
+margin-right: 10px;;
+
+ }
+ p#p2::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("images/icon-email.svg");
+    background-size: contain;
+    margin-right: 10px;;
+    
+     }
+
+     .footer-con{
+        font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding-bottom: 10px;
+     }
+     .mylogo{
+       
+        padding-top: 70px;
+        padding-left: 110px;
+     }
+
+     
+    @media (max-width:375px){
+        .header-continer{
+            margin: 30px;
+          }
+  
+          .main-logo {
+              width: 100px;
+              height: 40px;
+              padding: 5px;
+             
+           }
+        .navbar{
+          padding-right:10px ;
+          font-size: 15px;
+          
+        }
+        
+
+        .main-continer{
+            width: 3500px;
+            height: 300px;
+             
+             flex-direction: column;
+           
+        }
+
+
+
+    }
+        
